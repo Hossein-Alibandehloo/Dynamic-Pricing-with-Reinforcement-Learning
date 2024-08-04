@@ -95,7 +95,7 @@ This setup allows the agent to improve its policy by learning from past experien
 
 The experience replay memory stores observed transitions, and the network periodically updates its weights to approximate the Q-value function. This helps the network to converge towards determining the value of each action in each state.
 
-![DQN Learning Algorithm](Charts\DQN.png)
+![DQN Learning Algorithm](Charts/DQN.png)
 
 *Figure: The structure of the DQN learning algorithm.*
 
@@ -136,5 +136,5 @@ In this setup, the agent improves its policy by selecting actions that maximize 
   - The combination of hyperparameters that yielded the best performance is highlighted.
   - Plots showing cumulative rewards and learning curves.
 
-![Result 1](Charts\Result1.png)
-![Result 2](Charts\Result2.png)
+![Result 1](Charts/Result1.png)
+![Result 2](Charts/Result2.png)
